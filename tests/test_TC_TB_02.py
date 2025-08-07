@@ -3,12 +3,6 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.ui import Select
 
-# setup logging
-logging.basicConfig(
-    filename="logs/TC_TB_002.log",
-    level= logging.INFO,
-    format='%(asctime)s - %(levelname)s - %(message)s'
-)
 
 
 def test_tc_tb_002(browser_config):
@@ -83,6 +77,6 @@ def test_tc_tb_002(browser_config):
         # get the full body element
         full_body_element = driver.find_element(By.TAG_NAME, "body")
         # take a full-page screenshot
-        full_body_element.screenshot("Bug_TC_TB_02.png")
+        full_body_element.screenshot("./Screenshots/Bug_TC_TB_02.png")
         logging.info("TC_TB_002 Completed..")
 

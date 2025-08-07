@@ -3,16 +3,9 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.ui import Select
 
-# setup logging
-logging.basicConfig(
-    filename="logs/TC_TB_002.log",
-    level= logging.INFO,
-    format='%(asctime)s - %(levelname)s - %(message)s'
-)
 
-
-def test_tc_tb_002(browser_config):
-    logging.info("TC_TB_001 Started..")
+def test_tc_tb_006(browser_config):
+    logging.info("TC_TB_006 Started..")
     driver, wait = browser_config
 
     # 2. Enter a valid Number of Tickets
