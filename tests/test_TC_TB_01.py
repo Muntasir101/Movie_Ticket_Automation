@@ -2,6 +2,7 @@ import logging
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.ui import Select
+from utils.screenshot_utils import capture_full_page_screenshot
 
 
 
@@ -71,14 +72,6 @@ def test_tc_tb_001(browser_config):
     else:
         logging.info("Test Failed. Expected Final Price does not match with Actual Final Price.")
         # Screenshot
-        # get the page scroll dimensions
-        width = driver.execute_script(f"return document.body.parentNode.scroll{"Width"}")
-        height = driver.execute_script(f"return document.body.parentNode.scroll{"Height"}")
-        # set the browser window size
-        driver.set_window_size(width, height)
-        # get the full body element
-        full_body_element = driver.find_element(By.TAG_NAME, "body")
-        # take a full-page screenshot
-        full_body_element.screenshot("./Screenshots/Bug_TC_TB_01.png")
-        logging.info("TC_TB_001 Completed..")
+        capture_full_page_screenshot(driver, "TC_TB_01")
 
+    logging.info("TC_TB_001 Completed..")
