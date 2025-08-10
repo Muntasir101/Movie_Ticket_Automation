@@ -3,7 +3,7 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.ui import Select
 
 class BookingPage:
-    def __int__(self,driver,wait):
+    def __init__(self,driver,wait):
         self.driver = driver
         self.wait = wait
 
@@ -22,8 +22,8 @@ class BookingPage:
         registered_user_dropdown.select_by_value(value)
 
     def enter_promo_code(self,promo_code):
-        promo_code = self.wait.until(EC.presence_of_element_located((By.CSS_SELECTOR, "#promo")))
-        promo_code.send_keys(promo_code)
+        promo_code_element = self.wait.until(EC.presence_of_element_located((By.CSS_SELECTOR, "#promo")))
+        promo_code_element.send_keys(promo_code)
 
     def click_book_button(self):
         book_now_button = self.wait.until(
@@ -35,3 +35,9 @@ class BookingPage:
             (By.CSS_SELECTOR, "body > div:nth-child(2) > div:nth-child(6) > strong:nth-child(6)")))
 
         return actual_final_price_element.text
+
+    def get_ticket_error_message(self):
+        ticket_error_element = self.wait.until(EC.presence_of_element_located(
+            (By.CSS_SELECTOR, "#ticketError")))
+
+        return ticket_error_element.text
