@@ -1,6 +1,7 @@
 import logging
 import pytest
 from selenium import webdriver
+from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.support.wait import WebDriverWait
 
 # setup logging
@@ -13,7 +14,9 @@ logging.basicConfig(
 @pytest.fixture(scope="function")
 def browser_config():
     logging.info("Starting Browser Session...")
-    driver = webdriver.Firefox()
+    chrome_options = Options()
+    chrome_options.add_argument("--headless")
+    driver = webdriver.Chrome(options=chrome_options)
     logging.info("Browser Launch Successfully.")
     driver.maximize_window()
     driver.implicitly_wait(5)
