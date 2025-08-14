@@ -8,7 +8,7 @@
 [32mINFO    [0m root:test_TC_TB_03.py:52 Valid Promo Code Enter successfully.
 [32mINFO    [0m root:test_TC_TB_03.py:60 Click on Book Now button successfully.
 [32mINFO    [0m root:test_TC_TB_03.py:72 Test Failed. Expected Error Message does not match with Actual Error Message!.
-[32mINFO    [0m root:bug_report_template.py:48 Bug report saved to: bug_reports\bug_report_TC_TB_003_20250814_183343.txt
+[32mINFO    [0m root:bug_report_template.py:48 Bug report saved to: bug_reports\bug_report_TC_TB_003_20250814_185956.txt
 [32mINFO    [0m root:conftest.py:58 Script complete.
 [32mINFO    [0m root:conftest.py:60 Ending browser session...
 [32mINFO    [0m root:conftest.py:61 ...................
