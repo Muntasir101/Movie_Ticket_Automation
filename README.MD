@@ -1,3 +1,3 @@
 run: 
-pytest --browser=firefox --alluredir=%allure_result_folder" 
-allure serve %allure_result_folder% 
+pytest --browser=firefox --alluredir=allure_test_report 
+allure serve allure_test_report 
