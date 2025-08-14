@@ -536,3 +536,63 @@ Screenshot: None
 2025-08-14 18:59:59,720 - INFO - Ending browser session...
 2025-08-14 18:59:59,721 - INFO - ...................
 2025-08-14 18:59:59,721 - INFO - ...................
+2025-08-14 19:29:01,568 - INFO - Starting browser session with firefox...
+2025-08-14 19:29:10,162 - INFO - firefox browser launched successfully.
+2025-08-14 19:29:12,049 - INFO - URL opened successfully.
+2025-08-14 19:29:12,052 - INFO - TC_TB_001 Started..
+2025-08-14 19:29:12,176 - INFO - Ticket Number Enter successfully.
+2025-08-14 19:29:12,264 - INFO - Ticket Class Silver - $750 selected.
+2025-08-14 19:29:12,277 - INFO - Registered User - 'Yes' selected.
+2025-08-14 19:29:12,294 - INFO - Valid Promo Code Enter successfully.
+2025-08-14 19:29:12,371 - INFO - Click on Book Now button successfully.
+2025-08-14 19:29:12,381 - INFO - Test Passed. Expected Final price match with Actual Final Price.
+2025-08-14 19:29:12,381 - INFO - TC_TB_001 Completed..
+2025-08-14 19:29:12,381 - INFO - Script complete.
+2025-08-14 19:29:15,628 - INFO - Ending browser session...
+2025-08-14 19:29:15,628 - INFO - ...................
+2025-08-14 19:29:15,628 - INFO - ...................
+2025-08-14 19:32:16,136 - INFO - Starting browser session with firefox...
+2025-08-14 19:32:23,014 - INFO - firefox browser launched successfully.
+2025-08-14 19:32:27,130 - INFO - URL opened successfully.
+2025-08-14 19:32:27,132 - INFO - TC_TB_001 Started..
+2025-08-14 19:32:27,233 - INFO - Ticket Number Enter successfully.
+2025-08-14 19:32:27,329 - INFO - Ticket Class Silver - $750 selected.
+2025-08-14 19:32:27,346 - INFO - Registered User - 'Yes' selected.
+2025-08-14 19:32:27,357 - INFO - Valid Promo Code Enter successfully.
+2025-08-14 19:32:27,422 - INFO - Click on Book Now button successfully.
+2025-08-14 19:32:27,435 - INFO - Test Passed. Expected Final price match with Actual Final Price.
+2025-08-14 19:32:27,435 - INFO - TC_TB_001 Completed..
+2025-08-14 19:32:27,435 - INFO - Script complete.
+2025-08-14 19:32:30,431 - INFO - Ending browser session...
+2025-08-14 19:32:30,431 - INFO - ...................
+2025-08-14 19:32:30,431 - INFO - ...................
+2025-08-14 19:32:30,434 - INFO - Starting browser session with firefox...
+2025-08-14 19:32:36,659 - INFO - firefox browser launched successfully.
+2025-08-14 19:32:40,618 - INFO - URL opened successfully.
+2025-08-14 19:32:40,619 - INFO - TC_TB_002 Started..
+2025-08-14 19:32:40,736 - INFO - Ticket Number Enter successfully.
+2025-08-14 19:32:40,883 - INFO - Ticket Class Silver - $750 selected.
+2025-08-14 19:32:40,897 - INFO - Registered User - 'Yes' selected.
+2025-08-14 19:32:40,915 - INFO - Valid Promo Code Enter successfully.
+2025-08-14 19:32:40,994 - INFO - Click on Book Now button successfully.
+2025-08-14 19:32:41,004 - INFO - Test Passed. Expected Final price match with Actual Final Price.
+2025-08-14 19:32:41,004 - INFO - TC_TB_002 Completed..
+2025-08-14 19:32:41,004 - INFO - Script complete.
+2025-08-14 19:32:43,995 - INFO - Ending browser session...
+2025-08-14 19:32:43,995 - INFO - ...................
+2025-08-14 19:32:43,995 - INFO - ...................
+2025-08-14 19:32:43,998 - INFO - Starting browser session with firefox...
+2025-08-14 19:32:50,172 - INFO - firefox browser launched successfully.
+2025-08-14 19:32:51,773 - INFO - URL opened successfully.
+2025-08-14 19:32:51,774 - INFO - TC_TB_003 Started..
+2025-08-14 19:32:51,900 - INFO - Ticket Number Enter successfully.
+2025-08-14 19:32:51,995 - INFO - Ticket Class Silver - $750 selected.
+2025-08-14 19:32:52,008 - INFO - Registered User - 'Yes' selected.
+2025-08-14 19:32:52,028 - INFO - Valid Promo Code Enter successfully.
+2025-08-14 19:32:52,102 - INFO - Click on Book Now button successfully.
+2025-08-14 19:32:52,112 - INFO - Test Failed. Expected Error Message does not match with Actual Error Message!.
+2025-08-14 19:32:52,498 - INFO - Bug report saved to: bug_reports\bug_report_TC_TB_003_20250814_193252.txt
+2025-08-14 19:32:52,638 - INFO - Script complete.
+2025-08-14 19:32:55,812 - INFO - Ending browser session...
+2025-08-14 19:32:55,812 - INFO - ...................
+2025-08-14 19:32:55,812 - INFO - ...................
