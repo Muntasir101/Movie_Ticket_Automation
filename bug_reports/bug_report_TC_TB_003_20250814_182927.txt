@@ -10,8 +10,8 @@ Test Data:
   Promo Code: PROMO2025
 --------------------------------------------
 Validation Failure:
-  Expected Error Message: Please enter a number between 1 and 100.
-  Actual Error Message:   Please enter a number between 1 and 10.
+  Expected Message: Please enter a number between 1 and 100.
+  Actual Message:   Please enter a number between 1 and 10.
 --------------------------------------------
-Screenshot: G:\Movie_Ticket_Automation-master\logs\bug_reports\TC_TB_003_failure_20250814_162309.png
+Screenshot: E:\BITM_6\Projects\Movie_Ticket_Automation\logs\bug_reports\TC_TB_003_failure_20250814_182927.png
 ============================================

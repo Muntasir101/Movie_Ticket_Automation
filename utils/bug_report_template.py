@@ -36,7 +36,7 @@ def save_bug_report(report_content, test_case_name):
     timestamp = datetime.datetime.now().strftime("%Y%m%d_%H%M%S")
 
     # Create the bug_reports directory if it doesn't exist
-    report_dir = os.path.join("logs", "bug_reports")
+    report_dir = os.path.join("bug_reports")
     os.makedirs(report_dir, exist_ok=True)
 
     # Create a unique filename for the bug report
